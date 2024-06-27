@@ -99,7 +99,7 @@ const App = () => {
 
   return (
     <>
-      <div>
+      <div className="content-div">
         <h1>{money}</h1>
         <h2>Team members: {team.length === 0 ? `Pick some team members!` : team.length}</h2>
         <h2>Available Zombie Fighters</h2>
